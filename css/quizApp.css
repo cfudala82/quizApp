@@ -1,29 +1,65 @@
 body, html {
   clear: both;
-  background-color: #ffd1b5;
+  background-color: #ff6302;
 }
 
-h1 {
+.oval {
+  background-color: #1e74ff;
+  margin-left: 5%;
+  margin-right: 70%;
+  height: 8rem;
+  border-radius: 50%;
+  border: 2px solid #ffd1b5;
+}
+
+.crew-logo {
+  font-family: "Brush Script MT", "Arial Black", sans-serif;
+  font-weight: 100;
+  font-size: 3rem;
+  color: rgb(75,0,130);
+  text-align: center;
+  margin-top: -4rem;
+}
+
+.sub-header {
   text-align: center;
   font-weight: 500;
-  color: #ff6302;
+  color: rgb(75,0,130);
   background-color: #1e74ff;
   padding: 2rem 0;
   margin-bottom: 0;
   margin: 0 33%;
   border-radius: 1.5rem;
+  border: 2px solid #ffd1b5;
 }
 
 .quizTitle {
   text-align: center;
   font-weight: 300;
-  color: #ff6302;
+  color: rgb(75,0,130);
   background-color: #1e74ff;
   padding: 1rem 0;
   margin: 1rem 33%;
   border-radius: 1.25rem;
+  border: 2px solid #ffd1b5;
+}
+
+.current-question {
+  text-align: center;
+  font-weight: 500;
+  color: rgb(75,0,130);
+  background-color: #1e74ff;
+  padding: 2rem 0;
+  margin-bottom: 0;
+  margin: 0 33%;
+  border-radius: 1.5rem;
+  border: 2px solid #ffd1b5;
 }
 
 .question {
-  text-align: center;
+
+}
+
+.answer {
+
 }
