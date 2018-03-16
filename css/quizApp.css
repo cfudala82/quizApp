@@ -1,59 +1,67 @@
 body, html {
   clear: both;
-  background-color: #ff6302;
+  background-color: #00FF66;
 }
 
 .oval {
-  background-color: #1e74ff;
+  /* background-color: #1e74ff; */
+  background-color: #0033FF;
   margin-left: 5%;
   margin-right: 70%;
   height: 8rem;
   border-radius: 50%;
-  border: 2px solid #ffd1b5;
+  border: 2px solid #d966ff;
+  box-shadow: 2px 4px rgba(75,0,130,.3);
 }
 
 .crew-logo {
   font-family: "Brush Script MT", "Arial Black", sans-serif;
   font-weight: 100;
   font-size: 3rem;
-  color: rgb(75,0,130);
+  color: #d966ff;
   text-align: center;
   margin-top: -4rem;
 }
 
-.sub-header {
+.team-name {
   text-align: center;
+  font-size: 3rem;
+  font-family: Chalkduster, Comic Sans MS, sans-serif;
   font-weight: 500;
-  color: rgb(75,0,130);
-  background-color: #1e74ff;
-  padding: 2rem 0;
-  margin-bottom: 0;
+  color: #FFFF00;
+  background-color: #0033FF;
+  padding: 1rem 0;
   margin: 0 33%;
   border-radius: 1.5rem;
-  border: 2px solid #ffd1b5;
+  border: .25rem solid #FFFF00;
+  box-shadow: 2px 4px rgba(75,0,130,.3);
 }
 
 .quizTitle {
   text-align: center;
+  font-family: Chalkduster, Comic Sans, sans-serif;
   font-weight: 300;
-  color: rgb(75,0,130);
-  background-color: #1e74ff;
+  color: white;
+  background-color: #6E0DD0;
   padding: 1rem 0;
   margin: 1rem 33%;
   border-radius: 1.25rem;
-  border: 2px solid #ffd1b5;
+  border: .125rem solid white;
+  box-shadow: 2px 4px rgba(75,0,130,.3);
 }
 
 .current-question {
   text-align: center;
+  font-family: Comic Sans MS, Comic Sans, sans-serif;
   font-weight: 500;
-  color: rgb(75,0,130);
-  background-color: #1e74ff;
+  color: #0033FF;
+  background-color: #FFFF00;
   padding: 2rem 0;
   margin-bottom: 0;
   margin: 0 33%;
   border-radius: 1.5rem;
-  border: 2px solid #ffd1b5;
+  border: .125rem solid #0033FF;
+  box-shadow: 2px 4px rgba(75,0,130,.3);
 }
 
 .question {
@@ -62,4 +70,10 @@ body, html {
 
 .answer {
 
+}
+
+.site-footer {
+  text-align: center;
+  margin-top: 3rem;
+  color: #0033FF;
 }
