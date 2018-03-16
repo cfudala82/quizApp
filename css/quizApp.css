@@ -27,13 +27,12 @@ body, html {
 .team-name {
   text-align: center;
   font-size: 3rem;
-  font-family: Chalkduster, Comic Sans MS, sans-serif;
+  font-family: 'Gloria Hallelujah', Comic Sans MS, sans-serif;
   font-weight: 500;
   color: #FFFF00;
   background-color: #0033FF;
-  padding: 1rem 0;
   margin: 0 33%;
-  margin-top: 2.5rem;
+  margin-top: 2rem;
   border-radius: 1.5rem;
   border: .25rem solid #FFFF00;
   box-shadow: 2px 4px rgba(75,0,130,.3);
@@ -41,7 +40,8 @@ body, html {
 
 .quizTitle {
   text-align: center;
-  font-family: Chalkduster, Comic Sans, sans-serif;
+  font-family: 'Gloria Hallelujah'
+    , Comic Sans, sans-serif;
   font-weight: 300;
   color: white;
   background-color: #6E0DD0;
